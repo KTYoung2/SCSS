@@ -1,0 +1,26 @@
+
+.father {
+    display: grid;
+    height: 50vh;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: end;
+    align-items: stretch;
+}   
+
+.header {
+    background-color: darkviolet;
+}
+
+.content {
+    background-color:lavender;
+}
+
+.nav {
+    background-color: violet;
+}
+
+.footer {
+    background-color:darkmagenta;
+}
