@@ -1,26 +1,17 @@
 
 .father {
     display: grid;
-    height: 50vh;
-    gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-items: end;
-    align-items: stretch;
+    height: 100vh;
+    gap:5px;
+    grid-template-columns: max-content min-content;
+    grid-auto-rows:100px;
+    margin-bottom: 30px;
 }   
 
-.header {
+.item:nth-child(1) {
     background-color: darkviolet;
 }
 
-.content {
+.item:nth-child(2) {
     background-color:lavender;
-}
-
-.nav {
-    background-color: violet;
-}
-
-.footer {
-    background-color:darkmagenta;
 }
