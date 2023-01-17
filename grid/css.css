@@ -10,6 +10,7 @@
 
 .item:nth-child(1) {
     background-color: darkviolet;
+    justify-self:start;
 }
 
 .item:nth-child(2) {
