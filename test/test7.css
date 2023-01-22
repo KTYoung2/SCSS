@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+}
+
+
+.grid {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    grid-template-rows:repeat(5, minmax(100px, 1fr));
+}
+
+
+.item {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 1;
+    grid-row: span 5;
+}
+
+.small_header {
+    align-self: start;
+    padding: 11px;
+    color: rgb(142, 148, 132);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu {
+    border-top: 1px solid black;
+    display: block;
+    padding: 3px;
+}
+
+.home {
+    background-color: rgba(198, 198, 198, 0.767);
+}
+
+.footer {
+    display: block;
+    padding-top:50px;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+
+.item_1 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 2;
+    grid-row: 1 / span 5;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(139, 138, 138);
+    font-size: 15px;
+   
+}
+
+.item_2 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 2;
+    grid-row: 5;
+}
+
+
+.item_3 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 3;
+    grid-row: 1 / span 4;
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAyMDAyMjFfMTQ5/MDAxNTgyMjE0Nzk5MDkx.3zVakHkPiWcdWpvA-SrvTxeV1t4Pn-MQM2qhLsTPa7kg.FvTriHQHNxtJ57ym0emKr7nlU1rObVCpHphhLIZwjIMg.JPEG.se___ovo/SE-b3a56b7b-0fad-4e9b-bada-d8a2423f6639.jpg?type=w800);
+}
+
+
+
+
+
+.item_5 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 4;
+    grid-row: span 2;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/894/504/963/airplane-window-sky-wallpaper-preview.jpg);
+}
