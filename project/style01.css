@@ -7,12 +7,14 @@
 body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background-image: url("https://img.freepik.com/premium-vector/squared-paper-texture-notebook-page-in-cage_159025-44.jpg?w=740");
   }
 
   header {
-    width: 41%;
+    width: 600px;
     height: 100vh;
     background-color: #F0F0F0;
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -82,7 +84,6 @@ body {
     font-size: 12px;
     font-weight: bold;
     color:rgb(139, 139, 139);
-  
   }
 
 
@@ -90,25 +91,29 @@ body {
   main {
     background-color: #E7473C;
     height: 3000vh;
-    margin-left: 41%; 
+    width: 910px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     z-index: 1;
+    position:absolute;
+    left: 40%; 
   }
+
 
 .section_header {
   background-color: #E7473C;
   height: 20%;
-  width: 55%;
+  width: 910px;
   display: flex;
   justify-content: center;  
   border-bottom: 1px solid #96221981;
   padding-bottom: 50px;
   position: fixed;
-  left: 39%;
   z-index: 2;
+  left: 40%; 
 }
+
 
 h3 {
   color: #F0F0F0;
@@ -127,15 +132,36 @@ span:hover {
 }
 
 
-.move {
+.movie {
   display: flex;  
+  justify-content: space-around;
 }
 
 .section_h1 {
+  width: 80%;
   color: #F0F0F0;
-  font-weight: bold;
+  align-self: flex-end;
+  margin-left: 5%;
+  font-size: 45px;
 }
 
-.section_p {
+.section_h3 {
   color: #F0F0F0;
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 30%;
+  margin-right: 5%;
+}
+
+
+
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  width:770px; 
+  height: 430px;
 }
