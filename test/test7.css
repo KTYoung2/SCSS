@@ -86,8 +86,20 @@ body {
     background-image: url(https://mblogthumb-phinf.pstatic.net/MjAyMDAyMjFfMTQ5/MDAxNTgyMjE0Nzk5MDkx.3zVakHkPiWcdWpvA-SrvTxeV1t4Pn-MQM2qhLsTPa7kg.FvTriHQHNxtJ57ym0emKr7nlU1rObVCpHphhLIZwjIMg.JPEG.se___ovo/SE-b3a56b7b-0fad-4e9b-bada-d8a2423f6639.jpg?type=w800);
 }
 
+.item_4 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 3;
+    grid-row: 5;
+    background-color: black;
+}
 
-
+.head_4 {
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content:end;
+    padding: 70px;
+    font-size: 20px;
+}
 
 
 .item_5 {
@@ -95,4 +107,11 @@ body {
     grid-column: 4;
     grid-row: span 2;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/894/504/963/airplane-window-sky-wallpaper-preview.jpg);
+}
+
+.item_6 {
+    border: 3px solid rgb(0, 0, 0); 
+    grid-column: 4;
+    grid-row: span 3;
+    background-image: url(https://img.freepik.com/premium-photo/milky-way-on-the-starry-sky-background-astrophotography-of-night-sky-with-stars_141856-916.jpg);
 }
